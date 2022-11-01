@@ -44,3 +44,9 @@ To run the playbook run the following command:
 ```bash
 ansible-playbook playbook1.yml
 ```
+
+
+This command will display the process id of nginx
+ ```bash
+ps-ef | grep nginx
+``
