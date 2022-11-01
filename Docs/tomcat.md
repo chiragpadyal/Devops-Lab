@@ -66,6 +66,18 @@ cd bin
 > password: 1234
 > new route /jenkins will be visible
 
-
+```
+failed process
+Install Deploy to Container Plugin.
+Manage Jenkins -> Manage Plugins -> Available -> Deploy to Container Plugin
+• Create and Configure a Maven Job with Source Code Management (Github)
+New Item -> Maven Project
+• Configure the Post-build Action and Specify the Tomcat Server Details
+• Drag to the bottom and Go to the Post-build Actions section
+• Click on Add post-build action button
+• On the available options click on the Deploy war/ear to container
+• Execute the Job you have created by clicking on the Build Now button
+• Testing the Application
+```
 
 
